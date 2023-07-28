@@ -1,0 +1,128 @@
+/* Styling for the header */
+header {
+    text-align: center; /* Display the text contents at the center */
+    display: flex; /* Use flexbox to layout the header contents */
+    background-color: #FED22E; /* Set the background color to #FED22E */
+}
+
+/* Styling the whole page font */
+* {
+    font-family: "poppins", sans-serif;
+  }
+
+/* Styling for the logo image */
+.logo {
+    display: block; /* Display the logo as a block element */
+    margin-top: 26px; /* Set the top margin-top to 26px */
+    margin-left: 15px; /* Set the top margin-left to 15px */
+    width: 125px; /* Set the width of the logo */
+    height: auto; /* Automatically adjust the height while maintaining aspect ratio */
+  }
+
+/* Styling for the grid container */
+.grid-container {
+    margin-top: 0px; /* Set the top margin to 0px */
+}
+
+
+/* Styling for the navigation menu */
+nav ul.menu {
+    list-style: none; /* Remove the default list styles */
+    padding: 0; /* Remove the padding */
+    margin: 0; /* Remove the margin */
+}
+
+nav ul.menu li {
+    display: inline-block; /* Display the list items horizontally */
+}
+
+nav ul.menu li a {
+    display: block; /* Display the links as block elements */
+    padding: 30px; /* Add padding to the links */
+    text-decoration: none; /* Remove the underline from the links */
+    color:#745EDA;
+
+}
+
+/* Styling for the h1 heading */
+h1 {
+    text-align: center; /* Center-align the heading */
+    color:#000000;
+    margin-top: 10px; /* Add a top margin of 10px */
+    
+}
+
+/* Styling for the selected text */
+::selection {
+    color:#745EDA;
+    background:#FED22E;
+  }
+  
+
+/* Styling for form labels */
+form label {
+    display: block; /* Display the labels as block elements */
+    margin-top: 20px; /* Add a top margin of 20px */
+    font-weight: bold; /* Set the font weight to bold */
+}
+
+/* Styling for form inputs, select, and textarea */
+form input[type="text"],
+form select,
+form textarea {
+   
+    width: 400px; /* Set the width to 400px */
+    padding: 10px; /* Add padding */
+    margin-top: 2px; /* Add a top margin of 2px */
+    border-radius: 5px; /* Add a border radius of 5px */
+    border: 1px solid #ccc; /* Add a 1px solid border with the color #ccc */
+}
+
+/* Styling for the submit button */
+form input[type="submit"] {
+    display: block; /* Display the submit button as a block element */
+    margin: 20px auto; /* Center the submit button horizontally with a top/bottom margin of 20px */
+}
+
+/* Styling for the "Submit" button */
+.button1 {
+    align-items: center; /* Center align the content within the button */
+    width: 250px; /* Set the width of the button to 250 pixels */
+    display: inline-block; /* Display the button as an inline block element */
+    background-color: #745EDA; /* Set the background color to purple */
+    border: none; /* Remove the border */
+    color: white; /* Set the text color to white */
+    padding: 16px 32px; /* Add 16 pixels of padding vertically and 32 pixels horizontally */
+    text-align: center; /* Center align the button text */
+    font-size: 16px; /* Set the font size to 16 pixels */
+    margin: 14px 12px; /* Add 14 pixels of margin vertically and 12 pixels horizontally */
+    text-decoration: none; /* Remove any text decoration */
+    cursor: pointer; /* Change the cursor to a pointer on hover */
+  }
+
+/* Styling for the footer */
+footer {
+    color: #000000; /* Set the text color to #745EDA */
+    background-color: #FED22E; /* Set the background color to #FED22E */
+    display: flex; /* Use flexbox to layout the footer contents */
+    justify-content: center; /* Center-align the contents horizontally */
+    align-items: center; /* Center-align the contents vertically */
+    padding-top: 50px; /* Add a top padding of 50px */
+}
+
+
+.appstore {
+    padding-bottom: 2px;
+    margin-right: 20px;
+    width: 20px;
+    height: auto;
+  }
+  
+  footer {
+    margin-top: 40px;
+    padding-top: 20px;
+    padding-left: 40px;
+    display: flex;
+    text-align: center;
+    background-color: #FED22E;
+  }

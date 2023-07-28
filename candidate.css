@@ -1,0 +1,172 @@
+/* Styling the whole page font */
+* {
+  font-family: "poppins", sans-serif;
+}
+
+/* Styling for the header section */
+header {
+  display: flex; /* Use flexbox to layout the header contents */
+  background-color: #FED22E; /* Set the background color to #FED22E */
+}
+
+/* Styling for the logo image */
+.logo {
+  display: block; /* Display the logo as a block element */
+  margin-top: 26px; /* Set the top margin-top to 26px */
+  margin-left: 15px; /* Set the top margin-left to 15px */
+  width: 125px; /* Set the width of the logo */
+  height: auto; /* Automatically adjust the height while maintaining aspect ratio */
+}
+
+/* Styling for the grid container */
+.grid-container {
+  margin-top: 0px; /* Set the top margin to 0px */
+}
+
+/* Styling for the navigation menu */
+nav ul.menu {
+  list-style: none; /* Remove the default list styles */
+  padding: 0; /* Remove the padding */
+  margin: 0; /* Remove the margin */
+}
+
+nav ul.menu li {
+  display: inline-block; /* Display the list items horizontally */
+}
+
+nav ul.menu li a {
+  display: block; /* Display the links as block elements */
+  padding: 30px; /* Add padding to the links */
+  text-decoration: none; /* Remove the underline from the links */
+  color: #745EDA;
+}
+  /* Styling for the h1 heading */
+  h1 {
+    text-align: center; /* Center align the heading */
+    margin-top: 10px; /* Set the top margin of the heading */
+    color: #745EDA;
+  }
+/* Center the heading */
+h2.text-center {
+    text-align: center;
+    color: #745EDA;
+  }
+  
+/* Styling for the selected text */
+::selection {
+  color:#745EDA;
+  background:#FED22E;
+}
+
+  /* Style the switch */
+  .switch {
+    margin-bottom: 20px;
+  }
+  
+  .switch-input {
+    display: none;
+  }
+  
+  .switch-paddle {
+    background-color: #ccc;
+    border-radius: 20px;
+    cursor: pointer;
+    display: inline-block;
+    height: 20px;
+    position: relative;
+    width: 40px;
+  }
+  
+  .switch-paddle:before {
+    background-color: white;
+    border-radius: 50%;
+    content: "";
+    height: 16px;
+    left: 2px;
+    position: absolute;
+    top: 2px;
+    width: 16px;
+    transition: left 0.3s;
+  }
+  
+  .switch-input:checked + .switch-paddle {
+    background-color: #7ebf6b;
+  }
+  
+  .switch-input:checked + .switch-paddle:before {
+    left: calc(100% - 18px);
+  }
+  
+  .switch-active,
+  .switch-inactive {
+    color: white;
+    font-size: 12px;
+    line-height: 20px;
+    position: absolute;
+    text-align: center;
+    top: 0;
+    width: 100%;
+  }
+  
+  .switch-active {
+    left: 20px;
+  }
+  
+  .switch-inactive {
+    right: 20px;
+  }
+  
+  /* Style the chat items */
+  .chat-item {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .chat-profile-image {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #ccc;
+    margin-right: 10px;
+  }
+  
+  .chat-details {
+    flex: 1;
+  }
+  
+  .chat-name {
+    margin: 0;
+  }
+  
+  .chat-message {
+    margin: 0;
+    color: #666;
+  }
+  
+/* Styling for the footer section */
+footer {
+  color: #000000; /* Set the text color of the footer */
+  background-color: #FED22E; /* Set the background color of the footer */
+  display: flex; /* Use flexbox for layout */
+  justify-content: center; /* Center align the content horizontally */
+  align-items: center; /* Center align the content vertically */
+  padding-top: 50px; /* Add padding at the top of the footer */
+}
+
+.appstore {
+  padding-bottom: 2px;
+  margin-right: 20px;
+  width: 20px;
+  height: auto;
+}
+
+footer {
+  margin-top: 40px;
+  padding-top: 20px;
+  padding-left: 40px;
+  display: flex;
+  text-align: center;
+  background-color: #FED22E;
+} 

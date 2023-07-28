@@ -1,0 +1,83 @@
+/* External CSS */
+
+/* Styling for the header */
+header {
+  text-align: center; /* Center-align the header contents */
+  display: flex; /* Use flexbox to layout the header */
+}
+
+/* Styling for the h1 heading */
+h1 {
+  font-size: 40px; /* Set the font size to 40 pixels */
+  color: #745EDA;
+  margin: 10px; /* Add 10 pixels of margin around the heading */
+  padding: 20px; /* Add 10 pixels of padding inside the heading */
+  text-align: center; /* Center align the heading text */
+}
+
+/* Styling for the paragraph with id "para1" */
+#para1 {
+  font-size: 24px; /* Set the font size to 24 pixels */
+  margin: 12px; /* Add 12 pixels of margin around the paragraph */
+  padding: 12px; /* Add 12 pixels of padding inside the paragraph */
+  text-align: center; /* Center align the paragraph text */
+  color: #745EDA; /* Set the text color to purple */
+}
+
+/* Styling for button class "button1" */
+.button1 {
+  align-items: center; /* Center align the content within the button */
+  width: 250px; /* Set the width of the button to 250 pixels */
+  display: inline-block; /* Display the button as an inline block element */
+  background-color: #745EDA; /* Set the background color to purple */
+  border: none; /* Remove the border */
+  color: white; /* Set the text color to white */
+  padding: 16px 32px; /* Add 16 pixels of padding vertically and 32 pixels horizontally */
+  text-align: center; /* Center align the button text */
+  font-size: 16px; /* Set the font size to 16 pixels */
+  margin: 14px 12px; /* Add 14 pixels of margin vertically and 12 pixels horizontally */
+  text-decoration: none; /* Remove any text decoration */
+  cursor: pointer; /* Change the cursor to a pointer on hover */
+}
+
+.button1:hover {
+  color: #FED22E; /* Change the text color to yellow on hover */
+  opacity: 1; /* Set the opacity to 1 on hover */
+}
+
+/* Styling for button class "button2" */
+.button2 {
+  align-items: center; /* Center align the content within the button */
+  width: 250px; /* Set the width of the button to 250 pixels */
+  display: inline-block; /* Display the button as an inline block element */
+  background-color: #DCCCFF; /* Set the background color to light purple */
+  color: #333; /* Set the text color to black */
+  padding: 16px 32px; /* Add 16 pixels of padding vertically and 32 pixels horizontally */
+  text-align: center; /* Center align the button text */
+  font-size: 16px; /* Set the font size to 16 pixels */
+  margin: 14px 12px; /* Add 14 pixels of margin vertically and 12 pixels horizontally */
+  text-decoration: none; /* Remove any text decoration */
+  cursor: pointer; /* Change the cursor to a pointer on hover */
+}
+
+.button2:hover {
+  color: #745EDA; /* Change the text color to light yellow on hover */
+  opacity: 1; /* Set the opacity to 1 on hover */
+}
+
+/* Styling for the footer */
+footer {
+  color: #745EDA; /* Set the text color to purple */
+  display: flex; /* Use flexbox to layout the footer contents */
+  justify-content: center; /* Center-align the contents horizontally */
+  align-items: center; /* Center-align the contents vertically */
+  padding-top: 50px; /* Add top padding of 50 pixels */
+}
+
+footer p {
+  margin: 10px; /* Add 10 pixels of margin to the paragraphs within the footer */
+}
+
+footer img.appstore {
+  margin-left: 10px; /* Add left margin of 10 pixels to the app store image within the footer */
+}
