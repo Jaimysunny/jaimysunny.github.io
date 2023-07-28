@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/foundation.css"> <!-- External CSS file for foundation framework -->
+    <link rel="stylesheet" href="css/foundation.min.css"> <!-- External CSS file for minified foundation framework -->
+    <link rel="stylesheet" href="css/candidate.css"> <!-- External CSS file for pricing page styling -->
+    <!-- Preconnect to the fonts.gstatic.com domain for improved font loading performance -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- Import the Poppins font family from Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700;900&display=swap" rel="stylesheet">
+    <title>Candidate Page</title>
+</head>
+<body>
+    <!-- Grid Container -->
+    <section class="grid-container full">
+        <!-- Header -->
+        <header class="grid-x">
+            <figure class="cell small-12 medium-3 large-2">
+                <img class="logo" src="images/Jobsess-Logo.png" alt="logo"> <!-- Logo image -->
+            </figure>
+
+            <!-- Navigation Bar -->
+            <nav class="cell small-12 medium-9 large-10">
+                <ul class="menu">
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="candidate.html">Candidates</a></li>
+                    <li><a href="newpost.html">New Post</a></li>
+                    <li><a href="pricing.html">Pricing</a></li>
+                </ul>
+            </nav>
+        </header>
+    </section>
+
+    <main>
+        <section class="grid-container">
+            <div class="grid-x">
+                <div class="cell small-12 medium-4 large-4">
+                    <!-- Search Bar -->
+                    <input type="text" class="input" placeholder="Search">
+                </div>
+            </div>
+            <!-- Heading -->
+            <h2 class="text-center">Messages</h2>
+
+            <!-- Inbox -->
+            <section class="grid-container">
+                <section class="grid-x">
+                    <nav class="cell small-12 medium-4 large-4">
+                        <ul class="vertical tabs" data-tabs id="inbox-tabs">
+                            <li class="tabs-title is-active"><a href="#panel1v" aria-selected="true">Sent</a></li>
+                            <li class="tabs-title"><a href="#panel2v">Draft</a></li>
+                            <li class="tabs-title"><a href="#panel3v">Spam</a></li>
+                            <li class="tabs-title"><a href="#panel4v">Trash</a></li>
+                            <li class="tabs-title"><a href="#panel5v">Important</a></li>
+                        </ul>
+                    </nav>
+
+                    <!-- Tab Contents -->
+                    <section class="cell small-12 medium-8 large-8">
+                        <section class="tabs-content vertical" data-tabs-content="inbox-tabs">
+                            <section class="tabs-panel is-active" id="panel1v">
+                                <article class="chat-item">
+                                    <section class="chat-profile-image"></section>
+                                    <section class="chat-details">
+                                        <h4 class="chat-name">John Doe</h4>
+                                        <p class="chat-message">Hello, how are you?</p>
+                                    </section>
+                                </article>
+                                <article class="chat-item">
+                                    <section class="chat-profile-image"></section>
+                                    <section class="chat-details">
+                                        <h4 class="chat-name">John Doe</h4>
+                                        <p class="chat-message">Hello, how are you?</p>
+                                    </section>
+                                </article>
+                            </section>
+                        </section>
+                    </section>
+                </section>
+            </section>
+        </section>
+    </main>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>Get the Jobsess App
+        <img class="appstore" src="images/app-store.png" alt="iOS">
+        ©2023 Jobsess Worldwide</p>
+    </footer>
+</body>
+</html>
