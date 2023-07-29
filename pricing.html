@@ -13,27 +13,31 @@
     </head>
 
     <body>
-
-        <!--Header -->
-        <header class="grid-x">
-            <section class="logo small-12 medium-3 large-2"> 
-                <img class="logo" src="images/logo.png" alt="logo">
+         <!-- Navigation -->
+        <nav class="top-bar topbar-responsive">
+            <section class="top-bar-title">
+              <span data-responsive-toggle="topbar-responsive" data-hide-for="medium">
+                <button class="menu-icon" type="button" data-toggle></button>
+              </span>
+              <a class="topbar-responsive-logo" href="home.html"><img id="logo" src="images/Jobsess-Logo.png" alt="logo"></a>
             </section>
-    
-            <!--Navigation Bar-->
-            <nav class="navbar small-12 medium-9 large-10">
-            <ul class="menu">
-                <li><a href="home.html">Home</a></li>
-                        <li><a href="candidate.html">Candidates</a></li>
-                        <li><a href="newpost.html">New Post</a></li>
-                        <li><a href="pricing.html">Pricing</a></li>
-            </ul>
-            </nav>
-        </header>
-
+            <section id="topbar-responsive" class="topbar-responsive-links">
+              <section class="top-bar-right">
+                <ul class="menu simple vertical medium-horizontal">
+                  <li><a href="home.html">Home</a></li>
+                  <li><a href="candidate.html">Candidate</a></li>
+                  <li><a href="newpost.html">New Post</a></li>
+                  <li><a href="pricing.html">Pricing</a></li>
+                  <li>
+                    <button type="button" class="button hollow topbar-responsive-button">Sign in</button>
+                  </li>
+                </ul>
+              </section>
+            </section>
+        </nav>
         <!-- Banner Image -->
         <section class="banner">
-            <img src="images/pricing-banner.jpg" alt="Pricing Plan">
+            <img src="images/pricing.png" alt="Pricing Plan">
         </section>
 
         <!-- Pricing -->
@@ -66,11 +70,10 @@
             <img class="appstore" src="images/app-store.png" alt="iOS">
             ©2023 Jobsess Worldwide</p>
         </footer>
-
-
-        <script src="js/vendor/jquery.js"></script>
-        <script src="js/vendor/what-input.js"></script>
-        <script src="js/vendor/foundation.js"></script>
-        <script src="js/app.js"></script>
+      <!-- Javascript Includes -->
+      <script src="js/vendor/jquery.js"></script>
+      <script src="js/vendor/what-input.js"></script>
+      <script src="js/vendor/foundation.js"></script>
+      <script src="js/app.js"></script>
     </body>
 </html>

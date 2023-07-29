@@ -6,7 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="css/foundation.css"> <!-- External CSS file for foundation framework -->
         <link rel="stylesheet" href="css/foundation.min.css"> <!-- External CSS file for minified foundation framework -->
-        <link rel="stylesheet" href="css/home.css"> <!-- External CSS file for dashboard styling -->
+        <link rel="stylesheet" href="css/style.css"> <!-- External CSS file for dashboard styling -->
         <!-- Preconnect to the fonts.gstatic.com domain for improved font loading performance -->
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <!-- Import the Poppins font family from Google Fonts -->
@@ -14,51 +14,39 @@
         <title>Home</title>
     </head>
     <body>
-        <!-- Grid Container -->
-        <section class="grid-container full">
-            <!-- Header -->
-            <header class="grid-x">
-                <section class="cell small-12 medium-3 large-2">
-                    <img id="logo" src="images/Jobsess-Logo.png" alt="logo"> <!-- Logo image -->
-                </section>
-
-                <!-- Navigation Bar -->
-                <nav class="cell small-12 medium-9 large-10">
-                    <ul class="menu">
-                        <li><a href="home.html">Home</a></li>
-                        <li><a href="candidate.html">Candidates</a></li>
-                        <li><a href="newpost.html">New Post</a></li>
-                        <li><a href="pricing.html">Pricing</a></li>
-                    </ul>
-                </nav>
-            </header>
-        </section>
-
+        <nav class="top-bar topbar-responsive">
+            <section class="top-bar-title">
+              <span data-responsive-toggle="topbar-responsive" data-hide-for="medium">
+                <button class="menu-icon" type="button" data-toggle></button>
+              </span>
+              <a class="topbar-responsive-logo" href="home.html"><img id="logo" src="images/Jobsess-Logo.png" alt="logo"></a>
+            </section>
+            <section id="topbar-responsive" class="topbar-responsive-links">
+              <section class="top-bar-right">
+                <ul class="menu simple vertical medium-horizontal">
+                  <li><a href="home.html">Home</a></li>
+                  <li><a href="candidate.html">Candidate</a></li>
+                  <li><a href="newpost.html">New Post</a></li>
+                  <li><a href="pricing.html">Pricing</a></li>
+                  <li>
+                    <button type="button" class="button hollow topbar-responsive-button">Sign in</button>
+                  </li>
+                </ul>
+              </section>
+            </section>
+        </nav>
+          
         <main>
-            <!-- Dashboard Grid -->
-            <section class="grid-container">
-                <section class="grid-x">
-                    <!-- Sidebar -->
-                    <aside class="cell small-12 medium-3 large-2 sidebar">
-                        <ul class="menu-vertical">
-                            <li><a href="#">Dashboard</a></li>
-                            <li><a href="#">Messages</a></li>
-                            <li><a href="#">Candidates</a></li>
-                            <li><a href="#">Posts</a></li>
-                            <li><a href="#">Settings</a></li>
-                        </ul>
-                    </aside>
-
-                    <!-- Banner Image -->
-                    <figure class="cell small-12 medium-9 large-10 content">
-                        <img src="images/banner1.jpg" alt="Pricing Plan">
-                    </figure>
+            <section class="grid-container full">
+                <!-- Banner Image -->
+                <figure class="banner">
+                    <img src="images/dashboard.png" alt="homebanner" style= "width: 100%">
+                </figure>
                     
-                    <!-- Content Area -->
-                    <section class="cell small-12 medium-9 large-10 content">
-                        <h2 id="HeadingText">Welcome Back Kevin!!</h2>
-                        <p>Here you can manage your messages, candidates, posts, and settings.</p>
-                    </section>
+                 <!-- Content Area -->
+                <section class="cell small-12 medium-9 large-10 content">
+                    <h2 id="HeadingText">Welcome Back Kevin!!</h2>
+                    <p>Here you can manage your messages, candidates, posts, and settings.</p>
                 </section>
             </section>
             
@@ -68,7 +56,7 @@
                     <section class="cell small-12 medium-4 large-4 content">
                         <article class="card">
                             <section class="card-section">
-                                <p>Job Posted: 25</p>
+                                <p>Job Posted: 22</p>
                             </section>
                         </article>
                     </section>
@@ -88,6 +76,14 @@
                             </section>
                         </article>
                     </section>
+                </section>
+            </section>
+            <section class="grid-container">
+                <section class="grid-x">
+                    <!-- image section-->
+                    <figure class="banner">
+                        <img src="images/Graphs.png" alt="homebanner" style= "width: 100%">
+                    </figure>
                 </section>
             </section>
         </main>
