@@ -1,13 +1,5 @@
 //Load Foundations library
 $(document).foundation()
-
-//Alert message in Home Screen
-
-$(document).one("ready", function() {
-  alert("You are in the latest version!");
-});
-
-
 // Get the heading element using ID
 const headingElement = document.getElementById("HeadingText");
 
@@ -69,7 +61,11 @@ document.addEventListener("DOMContentLoaded", function () {
     //Change Banner Image on Mouseover
     $(document).ready(function() {
       $('.banner img').on('mouseover', function() {
+<<<<<<< HEAD
         $(this).attr('src', 'images/pricing.png');
+=======
+        $(this).attr('src', 'images/new.png');
+>>>>>>> 3973f2e (git pull)
       }).on('mouseout', function() {
         $(this).attr('src', 'images/dashboard.png');
       });
@@ -100,6 +96,7 @@ document.addEventListener("DOMContentLoaded", function () {
   const updateButtons = document.querySelectorAll(".button1");
   updateButtons[0].addEventListener("click", updateNumbersRandomly);
   updateButtons[1].addEventListener("click", resetNumbers);
+<<<<<<< HEAD
 
   document.addEventListener("DOMContentLoaded", function () {
     // Function to handle form submission and validation
@@ -131,3 +128,5 @@ document.addEventListener("DOMContentLoaded", function () {
     const submitBtn = document.getElementById("submitBtn");
     submitBtn.addEventListener("click", handleSubmit);
   });
+=======
+>>>>>>> 3973f2e (git pull)
